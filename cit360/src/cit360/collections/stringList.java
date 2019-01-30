@@ -17,7 +17,8 @@ public class stringList {
     public static void main(String[] args) {
 
         // create a list using the
-        List<String> list = Arrays.asList("Lars", "Simon", "Johnson");
+        System.out.println("Actual asList is 3");
+        List<String> list = Arrays.asList("Peter", "James", "John");
 
         // alternatively
         List<String> anotherList = new ArrayList<>();
