@@ -14,6 +14,10 @@ import java.util.List;
  */
 public class sorting {
     public static void main(String[] args) {
+        System.out.println("Actual list");
+        List<String> l4 = createList();
+        l4.forEach(System.out::println);
+        
         System.out.println("Sorting with natural order");
         List<String> l1 = createList();
         l1.sort(null);
