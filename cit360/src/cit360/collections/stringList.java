@@ -17,12 +17,13 @@ public class stringList {
     public static void main(String[] args) {
 
         // create a list using the
-        List<String> list = Arrays.asList("Lars", "Simon");
+        List<String> list = Arrays.asList("Lars", "Simon", "Johnson");
 
         // alternatively
         List<String> anotherList = new ArrayList<>();
         anotherList.add("Lars");
         anotherList.add("Simon");
+        anotherList.add("Anderson");
 
 
         // print each element to the console using method references
