@@ -17,7 +17,7 @@ public class stringList {
     public static void main(String[] args) {
 
         // create a list using the
-        System.out.println("Actual asList is 3");
+//        System.out.println("Actual asList is 3");
         List<String> list = Arrays.asList("Peter", "James", "John");
 
         // alternatively
@@ -28,7 +28,9 @@ public class stringList {
 
 
         // print each element to the console using method references
+        System.out.println("Actual asList is 3");
         list.forEach(System.out::println);
+        System.out.println("Alternative list");
         anotherList.forEach(System.out::println);
     }
 }
