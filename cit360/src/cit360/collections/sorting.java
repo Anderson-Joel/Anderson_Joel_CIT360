@@ -32,6 +32,6 @@ public class sorting {
     }
 
     private static List<String>  createList() {
-        return Arrays.asList("iPhone", "Ubuntu", "Android", "Mac OS X");
+        return Arrays.asList("iPhone", "Ubuntu", "Android", "Mac OS X", "Windows", "Linux");
     }
 }
